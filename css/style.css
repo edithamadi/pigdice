@@ -1,0 +1,29 @@
+.header {
+  height: 700px;
+  background: url("../images/Ludo_Pieces.JPG");
+  background-size: cover;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.container1 {
+  height: 600px;
+  background-color: #07337a;
+  width: 105%;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right:10%;
+  }
+
+.footer {
+  height: 600px;
+  background-color: #a50112;
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 10%;
+  }
+
+.container {
+  width:100%;
+}

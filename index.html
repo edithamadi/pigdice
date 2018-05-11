@@ -6,60 +6,70 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href
 
   </head>
   <body>
-    <div class="container">
 
-      <div class="jumbotron">
+      <div class="header">
 
         <h1>LET'S PLAY PIG DICE</h1>
 
       </div>
-    </div>
 
-    <div class="container">
+
+    <div class="containerfluid">
 
       <div class="row">
 
         <div class="col-md-6">
+          <div class="container1">
 
-          <button type="submit" class="btn">START</button>
 
-            <form id="player1">
-              <div class="form-group">
-                <label for="new-player1">Player 1</label>
-                <input type="text" class="form-control" id="new-player1">
-              </div>
-              <button type="submit" class="btn">Roll</button>
-            </form>
+            <button type="submit" class="btn">START</button>
 
-            <form id="player2">
-              <div class="form-group">
-                <label for="new-player1">Player 2</label>
-                <input type="text" class="form-control" id="new-player2">
-              </div>
-              <button type="submit" class="btn">Roll</button>
-            </form>
-        </div>
+              <form id="player1">
+                <div class="form-group">
+                  <label for="new-player1">Player 1</label>
+                  <input type="text" class="form-control" id="new-player1">
+                </div>
+                <button type="submit" class="btn">Click to Roll Dice</button>
+              </form>
 
-        <div class="col-md-6">
-          <div class="well">
-            <h1> RULES OF THE GAME</h1>
-            <h3>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</h3>
-
-            <ul>
-            <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
-            <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
-            <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
-            <li>The first player to score 100 or more points wins.</li>
-
-            <p><span>For example,</span> the first player, Anne, begins a turn with a roll of 5. Anne could hold and score 5 points, but chooses to roll again. Anne rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Anne rolls a 1, and must end her turn without scoring. The next player, Bob, rolls the sequence 4-5-3-5-5, after which he chooses to hold, and adds his turn total of 22 points to his score.</p>
+              <form id="player2">
+                <div class="form-group">
+                  <label for="new-player1">Player 2</label>
+                  <input type="text" class="form-control" id="new-player2">
+                </div>
+                <button type="submit" class="btn">Click to Roll Dice</button>
+              </form>
           </div>
-        </div>
-      </div>
+       </div>
+
+
+            <div class="col-md-6">
+              <div class="footer">
+                <h1> RULES OF THE GAME</h1>
+                <h3>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</h3>
+
+                  <ul>
+                <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+                <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+                <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+                <li>The first player to score 100 or more points wins.</li><br>
+
+                <p><strong>For example,</strong> the first player, Anne, begins a turn with a roll of 5. Anne could hold and score 5 points, but chooses to roll again. Anne rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Anne rolls a 1, and must end her turn without scoring. The next player, Bob, rolls the sequence 4-5-3-5-5, after which he chooses to hold, and adds his turn total of 22 points to his score.</p>
+              </div>
+            </div>
+
+
+
+
+
+
 
     </div>
+  </div>
 
     <script src="Js/jquery-3.3.1.js"></script>
     <script src="Js/script.js"></script>
