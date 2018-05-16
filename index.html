@@ -13,7 +13,8 @@
 
       <div class="header">
 
-        <h1>LET'S PLAY PIG DICE</h1>
+        <h1>LET'S PLAY<br>
+           PIG DICE!</h1>
 
       </div>
 
@@ -26,22 +27,24 @@
           <div class="container1">
 
 
-            <button type="submit" class="btn">START</button>
+            <button onclick="rollDice()">NEXT TURN</button> &nbsp&nbsp&nbsp&nbsp
+            <button onclick="rollDice()">TURN TOTAL</button> &nbsp&nbsp&nbsp&nbsp
+            <button onclick="rollDice()">CURRENT TOTAL</button>
 
-              <form id="player1">
-                <div class="form-group">
-                  <label for="new-player1">Player 1</label>
-                  <input type="text" class="form-control" id="new-player1">
+              <form>
+                <div id="player1" class="form-group">
+                0
                 </div>
-                <button type="submit" class="btn">Click to Roll Dice</button>
+                  <button onclick="rollDice1()">Click to Roll Dice</button>
+                  <h2 id="status" style="clear:left;"></h2>
               </form>
 
-              <form id="player2">
-                <div class="form-group">
-                  <label for="new-player1">Player 2</label>
-                  <input type="text" class="form-control" id="new-player2">
+              <form>
+                <div id="player2" class="form-group">
+                0
                 </div>
-                <button type="submit" class="btn">Click to Roll Dice</button>
+                <button onclick="rollDice2()">Click to Roll Dice</button>
+                <h2 id="status" style="clear:left;"></h2>
               </form>
           </div>
        </div>
@@ -49,7 +52,7 @@
 
             <div class="col-md-6">
               <div class="footer">
-                <h1> RULES OF THE GAME</h1>
+                <h2><u>RULES OF THE GAME</u></h2>
                 <h3>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</h3>
 
                   <ul>
