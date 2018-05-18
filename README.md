@@ -6,7 +6,9 @@ Description of Project
 
 This project allows two players to play a game of Pig Dice.
 
-Project setup instructions To see the work done use the following commands:
+Project setup instructions
+
+To see the work done use the following commands:
 
 `git clone https://github.com/edithamadi/pigdice.git
 cd pingpong
